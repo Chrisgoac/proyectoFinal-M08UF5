@@ -1,22 +1,35 @@
 * {
     font-family: 'Gill Sans MT';
 }
+.whiteColor{
+    color: white;
+}
+.whiteColorR{
+    color: rgb(247, 240, 240);
+}
 header{
     text-align: center;
     background-color: rgb(47, 42, 42);
     padding-bottom: 10px;
-}
-header h1, header h2{
-    color: white;
 }
 header h1{
     font-size: 5em;
     -webkit-text-stroke: 2px rgb(241, 191, 96);
 }
 #selected{
-    border-top: 2px solid rgb(241, 191, 96);
+    box-shadow: inset 0 2px 0 0 rgb(241, 191, 96);
     border-bottom: 2px solid rgb(241, 191, 96);
+}
+a{
+    font-size: 1.5em;
 }
 nav a:hover {
     border-bottom: 2px solid rgb(241, 191, 96);
+}
+nav{
+    background-color: rgb(56, 52, 52);
+}
+main img{
+    display: flex;
+    align-self: center;
 }
