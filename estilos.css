@@ -10,7 +10,12 @@
 header{
     text-align: center;
     background-color: rgb(47, 42, 42);
+}
+#topHeader{
     padding-bottom: 10px;
+}
+#asideHeader{
+    padding-bottom: 4px;
 }
 header h1{
     font-size: 5em;
@@ -38,11 +43,11 @@ main img{
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-  }
-  .row {
+}
+.row {
     margin-right: -15px;
     margin-left: -15px;
-  }
+}
 img{
     width: 20px;
 }
@@ -51,4 +56,15 @@ img{
 }
 .separador{
     height: 50px;
+}
+.parent {
+    position: relative;
+}
+.child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+aside{
+    background-color: rgb(66, 64, 64);
 }
