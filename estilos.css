@@ -65,6 +65,9 @@ img{
     top: 50%;
     transform: translateY(-50%);
 }
-aside{
+.bgGrayColor{
     background-color: rgb(66, 64, 64);
+}
+.padding10{
+    padding: 10px;
 }
