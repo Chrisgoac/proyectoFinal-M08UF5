@@ -7,14 +7,25 @@
 .whiteColorR{
     color: rgb(247, 240, 240);
 }
+.whiteColorS{
+    color: rgb(214, 209, 209);
+}
 header{
     text-align: center;
     background-color: rgb(47, 42, 42);
 }
+footer{
+    background-color: rgb(47, 42, 42);
+    height: 50px;
+    text-align: center;
+}
+footer p{
+    margin: 0px;
+}
 #topHeader{
     padding-bottom: 10px;
 }
-#asideHeader{
+.asideHeader{
     padding-bottom: 4px;
 }
 header h1{
@@ -57,17 +68,49 @@ img{
 .separador{
     height: 50px;
 }
-.parent {
-    position: relative;
-}
-.child {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
 .bgGrayColor{
     background-color: rgb(66, 64, 64);
 }
 .padding10{
     padding: 10px;
+}
+div p, div h3, div h4{
+    text-align: center;
+}
+.Padding-20{
+    padding: 20px;
+    text-align: center;
+}
+form label{
+    padding: 10px;
+}
+form button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(97, 96, 96);
+    border-radius: 6px;
+    border: 2px solid rgb(241, 191, 96);
+  }
+form button:hover{
+    background-color: rgb(143, 143, 143);
+}
+#contactForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section ul{
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+footer img, footer p{
+    display: inline-block;
+}
+section p{
+    font-size: 1.2em;
 }
