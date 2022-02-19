@@ -1,11 +1,11 @@
 * {
     font-family: 'Gill Sans MT';
 }
-.whiteColor{
-    color: white;
-}
 .blackColor{
     color: rgb(44, 43, 43);
+}
+.whiteColor{
+    color: white;
 }
 .whiteColorR{
     color: rgb(247, 240, 240);
@@ -84,9 +84,6 @@ div p, div h3, div h4{
     padding: 20px;
     text-align: center;
 }
-/* form label{
-    padding: 10px;
-} */
 form button{
     text-decoration: none;
     padding: 10px;
@@ -100,7 +97,7 @@ form button{
 form button:hover{
     background-color: rgb(143, 143, 143);
 }
-#contactForm{
+.centerForm{
     display: flex;
     justify-content: center;
     align-items: center;
